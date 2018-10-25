@@ -1,0 +1,146 @@
+<top>
+
+<query id="0">
+<num> 001 </num>
+<title> Factores que inciden positivamente en la generación de riqueza en los paises </title>
+<desc> Motivos sociales y/o políticos que hacen de un pais una sociedad más rica. Quedan excluidos aquellos artículos que centren en los recursos naturales del pais</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+
+
+<query>
+<num> 002 </num>
+<title> Animales salvajes en cautividad</title>
+<desc> Artículos que traten sobre las condiciones de vida de animales salvajes que no viven en libertad: sus condiciones de vida, causas y efectos del cautiverio </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 003 </num>
+<title> Lesiones en accidentes deportivos</title>
+<desc> Artículos que traten sobre lesiones que ocurren como consecuencia de accidentes asociados a la práctica de un deporte.  </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 004 </num>
+<title> Biografia de pintores pertenecientes a la escuela flamencos </title>
+<desc> Artículos centrados en la vida de pintores de los siglos XV,XVI y XVII y que desarrollaron su actividad en los Paises Bajos, Bélgica o Luxemburgo.  </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 005 </num>
+<title> Acciones de discriminación positiva </title>
+<desc> Artículos que aborden ejemplos de discriminación positiva y/o su dimensión social, política, científica o jurídica. Estas acciones tienen el objetivo de buscar el equilibrio de las condiciones de vida al general de la población. 
+Por ejemplo, creando cuotas  en establecimientos educativos o puestos laborales para determinados colectivos históricamente discriminados.   </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 006 </num>
+<title> Actividad laboral en  áreas  subdesarrolladas o en vias de desarrollo </title>
+<desc> Artículos que aborden aspectos relacionados con el desempeño de un trabajo remunerado o iniciativas empresariales en paises o áreas subdesarrolladas o en vias de desarrollo. </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 007 </num>
+<title> Procesos químicos aplicados a la investigación de la momias </title>
+<desc> Artículos que aborden usos actuales de la Química aplicada al estudio de las momias. Por ejemplo, su composición, antigüedad o procedencia. </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 008 </num>
+<title> Hábitos saludables en  paises desarrollados</title>
+<desc> Artículos que traten sobre la incidencia de hábitos saludables, o la ausencia de estos, en problemas de salud pública como el tabaquismo, el alcoholismo o la obesidad. </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 009 </num>
+<title> Situación de pueblos precolombinos en la actualidad</title>
+<desc> Artículos que traten sobre el desarrollo hoy dia de los pueblos indígenas ubicados en America: su integración en la sociedad actual,  economía, expresiones artísticas,e tc. </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 010 </num>
+<title>  Población cubierta por Medicaid</title>
+<desc> Artículos que traten específicamete sobre quién tiene derecho a recibir asistencia sanitaria a través del seguro de salud del gobierno estadounidense Medicaid. </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 011 </num>
+<title> Comunidades interculturales</title>
+<desc> Encuentra ejemplos de sociedades que estén conformadas por diversas razas y culturas, y que coexistan pacíficamente, en armonía y e integradas como parte de una misma comunidad</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 012 </num>
+<title> Estrategias educativas en la enseñanzas regladas</title>
+<desc>  Artículos centrados en qué contenidos  educativos se imparten y cómo, desde infantil hasta estudios universitarios.</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 013 </num>
+<title> Desarrollo tecnológico de los vehículos sin conductor </title>
+<desc>  Habilidades de los vehículos autónomos que con anterioridad era específicas del conductor, tales como realizar adelantamientos o aparcar </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 014 </num>
+<title> Causas de la Guerra de Secesión </title>
+<desc>  Artículos que traten o debatan los motivos que originaron la Guerra de Secesión America  </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 015 </num>
+<title> Políticas de integración social de los inmigrates</title>
+<desc>  Artículos que traten de leyes o iniciativas políticas orientadas a la integración de los inmigrantes en la sociedad, bien reconociendo sus derechos, facilitando trámites y convalidadiones o discriminación positiva  </desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 016 </num>
+<title> Efectos adversos del cambio climático </title>
+<desc>  Ejemplos de fenómenos climatológicos que se atribuyen al cambio climático y que ha tenido una incidencia negativa en alguna región. Por ejemplo, el aumento de la temperatura, inundaciones, ciclones, sequias, etc.</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 017 </num>
+<title> Protección de especies amenazadas </title>
+<desc>  Articulos que traten sobre iniciativas que se estén acometiendo para recuperar especies animales que estén en peligro de extinción o cuya población esté disminuyendo severamente</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 018 </num>
+<title> Discursos televisados de Obama en su último año legislativo </title>
+<desc>  Articulos que traten sobre discursos dados por el ex-presidente de los EEUU, Barak Obana. Para ser relevante, deber ser un discurso televisado en el último año de su mandato</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 019 </num>
+<title> Acuerdos internacionales para luchar contra el cambio climático </title>
+<desc>  Ejemplos de medidas políticas de ámbito internacional focalizadas exclusivamente en luchar contra el avance del cambio climático</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+<query>
+<num> 020 </num>
+<title> Especies autóctonas amenzadas por la presencia de especies invasoras </title>
+<desc>  Ejemplos de especies animales autóctonas que se encuentre en peligro de extición por la presencia en su habitat de otras especies invasoras</desc>
+<auth> Fernando Martínez</auth>
+<lang>ES</lang>
+</query>
+</top>
