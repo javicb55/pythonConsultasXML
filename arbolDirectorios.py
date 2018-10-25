@@ -57,5 +57,7 @@ def arbol_directorios(listadicc):
                         ruta= 'data/'+ num + '/' + 'consulta.json'
                         with open(ruta, 'w', encoding='utf8') as file:
                             json.dump(reg, file, ensure_ascii=False)
+       
     return lista_num, lista_title, lista_desc, lista_auth, lista_lang                         
+
 

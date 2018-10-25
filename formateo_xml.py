@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import xml.etree.ElementTree as ET
+
 from arbolDirectorios import arbol_directorios
 from bs4 import BeautifulSoup
 import os
@@ -39,8 +40,8 @@ def formatearXML():
             else:
                 os.makedirs('dataFormat/' + reg['num'])
     
+    arbol_directorios(listaConsultas)
 
-    #arbol_directorios(listaConsultas)
+    return listaConsultas
 
 formatearXML()
-
