@@ -6,10 +6,7 @@ Created on Tue Feb 13 13:50:59 2018
 """
 import descargarWeb
 import json
-from arbolDirectorios import arbol_directorios
-from formateo_xml import formatearXML
-
-
+import os
 
 def crearJson(lista_num, lista_title, lista_desc):
     #Se genera una lista con el número de consultas que se desean recuperar en este caso 99
@@ -29,12 +26,27 @@ def crearJson(lista_num, lista_title, lista_desc):
         else:
             lista_busqueda.append(lista_title[i] + lista_desc[i])
             #consulta=descargarWeb.descargarWeb("http://clueweb.adaptcentre.ie/WebSearcher/search?query="+listaQueries[0]+"&selection=[1,2,3,4,5,6]")
-            consulta = descargarWeb.descargarWeb("http://clueweb.adaptcentre.ie/WebSearcher/search?query="+lista_title[0]+lista_desc[0]+ "&selection=" +str(lista_numeros))
+            consulta = descargarWeb.descargarWeb("http://clueweb.adaptcentre.ie/WebSearcher/search?query="+lista_title[i]+lista_desc[i]+ "&selection=" +str(lista_numeros))
             commit_data = consulta.json()
-
-            ruta = 'data/' + lista_num[i] + '/' + 'search.json'
+            #print("valores commit_data", commit_data)
+            ruta = 'data/Q' + lista_num[i].strip() + '/' + 'search.json'
 
             with open(ruta, 'w', encoding='utf8') as file:
-                json.dump(commit_data, file)
-            print(i, lista_num[i], "->")
+                json.dump(commit_data, file, ensure_ascii=False)
+            
+       
+            if os.path.exists('data/Q' + lista_num[i].strip() + '/documentos/'):
+                print("Carpeta de los 100 DOCS ya esta creado")
+            else:
+                os.mkdir('data/Q' + lista_num[i].strip() + '/documentos/')
+            
+            counter = 1
+
+            for doc in commit_data:
+            #print(doc)
+                with open('data/Q' + lista_num[i].strip() + '/documentos/' + '/DOC'+ str(counter) + '.json', 'w', encoding='utf8') as file:
+                    json.dump(doc,file, ensure_ascii=False)
+                counter += 1
+                
+          #print(i, lista_num[i], "->", lista_busqueda[i])
 

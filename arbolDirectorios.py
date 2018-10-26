@@ -6,6 +6,7 @@ Creamos un arbol de directorios de un archivo xml
 import os
 import unicos
 import json
+import crearJson
  
 def arbol_directorios(listadicc):
     
@@ -42,7 +43,7 @@ def arbol_directorios(listadicc):
         print("Creado Árbol Directorios")
         os.mkdir('data')
         for reg in query_unicos:
-            os.makedirs('data/' + reg)
+            os.makedirs('data/Q' + reg.strip())
         
         #Averiguando las sesiones de cada usuario y crear árbol
 
@@ -50,14 +51,15 @@ def arbol_directorios(listadicc):
             for reg in listadicc:
                 if reg['num']== num:
                     #print(num, reg['num'])
-                    if os.path.exists('data/' + num + '/' + 'query_datos.json'):
+                    if os.path.exists('data/Q' + num.strip() + '/' + 'query_datos.json'):
                         print("El directorio ya esta creado")
                     else:
                         #Creamos un archivo json para guardar la consulta en formato utf8
-                        ruta= 'data/'+ num + '/' + 'consulta.json'
+                        ruta= 'data/Q'+ num.strip() + '/' + 'consulta.json'
                         with open(ruta, 'w', encoding='utf8') as file:
                             json.dump(reg, file, ensure_ascii=False)
-       
+                        
+    crearJson.crearJson(lista_num, lista_title, lista_desc)   
     return lista_num, lista_title, lista_desc, lista_auth, lista_lang                         
 
 

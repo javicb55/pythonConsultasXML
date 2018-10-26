@@ -3,6 +3,7 @@
 import xml.etree.ElementTree as ET
 
 from arbolDirectorios import arbol_directorios
+import crearJson
 from bs4 import BeautifulSoup
 import os
 
@@ -29,19 +30,19 @@ def formatearXML():
         lista_num.append(reg['num'])
     
     #arbol directorios que contendrá los ficheros
-    if os.path.exists('dataFormat'):
-        print("El arbol de directorios ya existe...")
-    else:
-        print("El arbol de directorios creado")
-        os.mkdir('dataFormat')
-        for reg in listaConsultas:
-            if os.path.exists('dataFormat/' + reg['num']):
-                print("Directorio de usuarios ya existe...")
+   
+        """
+            if os.path.exists('dataFormat'):
+                print("El arbol de directorios ya existe...")
             else:
-                os.makedirs('dataFormat/' + reg['num'])
-    
+                print("El arbol de directorios creado")
+                os.mkdir('dataFormat')
+                for reg in listaConsultas:
+                    if os.path.exists('dataFormat/' + reg['num']):
+                        print("Directorio de usuarios ya existe...")
+                    else:
+                        os.makedirs('dataFormat/' + reg['num'])
+        """
     arbol_directorios(listaConsultas)
 
     return listaConsultas
-
-formatearXML()
